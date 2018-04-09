@@ -1,3 +1,10 @@
+## local dev
+```
+docker run --rm --volume="$PWD:/srv/jekyll" -p "4000:4000" -it jekyll/jekyll:3.7 bash
+
+jekyll serve
+```
+
 ## How to Use This Theme
 Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
 
